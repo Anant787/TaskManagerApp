@@ -10,7 +10,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB connection
-const mongoURI = 'mongodb+srv://abh1nav:Abh1nav%4009@taskmanager.9z2q7q7.mongodb.net/'; // Adjust this URI according to your MongoDB setup
+const mongoURI = 'mongodb+srv://Anant787:Anant@762@anant787.nb66qpn.mongodb.net/'; // Adjust this URI according to your MongoDB setup
 
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
